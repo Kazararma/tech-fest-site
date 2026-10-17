@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Tech Fest 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+<div class="header-container">
+<div class="logo-area">
+<h1>Computer Science Event Portal</h1>
+<p>Institute of Technology & Science</p>
+</div>
+<nav id="navbar" class="site-nav">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#events">Upcoming Events</a></li>
+<li><a href="#register">Registration</a></li>
+<li><a href="#about">About Us</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<main class="container">
+<section id="home" class="hero-section">
+<div class="hero-content">
+<h2>Welcome to Tech Fest 2026</h2>
+<p>Join us for the best coding competitions and technical workshops of the year. Enhance your skills, compete with peers, and learn from experts.</p>
+<a href="#events" class="action-btn">View Event Schedule</a>
+</div>
+</section>
+
+<section id="events" class="content-section">
+<div class="section-header">
+<h2 class="section-title">Event Schedule</h2>
+</div>
+<div class="events-grid">
+<div class="event-card">
+<div class="card-date">September 26, 2026</div>
+<div class="card-body">
+<h3>24-Hour Code-A-Thon</h3>
+<span class="venue-badge">Main Computer Lab</span>
+<p>Compete in teams of four to build the most innovative web application. Problem statements released on the day.</p>
+</div>
+</div>
+<div class="event-card">
+<div class="card-date">October 5, 2026</div>
+<div class="card-body">
+<h3>AI & Machine Learning Workshop</h3>
+<span class="venue-badge">Seminar Hall B</span>
+<p>Learn the basics of neural networks and predictive modeling. Laptops are required for hands-on sessions.</p>
+</div>
+</div>
+<div class="event-card">
+<div class="card-date">November 15, 2026</div>
+<div class="card-body">
+<h3>Annual Tech Symposium</h3>
+<span class="venue-badge">College Auditorium</span>
+<p>Keynote speeches from leading industry experts and paper presentations from our senior students.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="register" class="content-section">
+<div class="section-header">
+<h2 class="section-title">Register for an Event</h2>
+</div>
+<div class="form-container">
+<form id="registrationForm">
+<div class="form-row">
+<div class="form-group">
+<label for="fullName">Full Name</label>
+<input type="text" id="fullName" name="fullName" required>
+</div>
+<div class="form-group">
+<label for="rollNumber">Roll Number</label>
+<input type="text" id="rollNumber" name="rollNumber" required>
+</div>
+</div>
+<div class="form-row">
+<div class="form-group">
+<label for="emailAddr">Email Address</label>
+<input type="email" id="emailAddr" name="emailAddr" required>
+</div>
+<div class="form-group">
+<label for="eventChoice">Select Event</label>
+<select id="eventChoice" name="eventChoice" required>
+<option value="">-- Please select an event --</option>
+<option value="Code-A-Thon">24-Hour Code-A-Thon</option>
+<option value="AI Workshop">AI & Machine Learning Workshop</option>
+<option value="Tech Symposium">Annual Tech Symposium</option>
+</select>
+</div>
+</div>
+<button type="submit" class="submit-btn">Complete Registration</button>
+<div id="formFeedback"></div>
+</form>
+</div>
+</section>
+
+<section id="about" class="content-section about-section">
+<div class="section-header">
+<h2 class="section-title">About Us</h2>
+</div>
+<div class="about-content">
+<p>We are the student committee of the Computer Science Department. We organize events for students to learn, network, and showcase their technical skills. Our events are open to all current students of the institute.</p>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container">
+<p>Designed for the Web Technologies course assignment &copy; 2026.</p>
+</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
