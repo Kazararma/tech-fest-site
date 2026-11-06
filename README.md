@@ -20,7 +20,6 @@ college-event-site/
 │   └── style.css            # Responsive layout and styling
 ├── js/
 │   └── script.js            # Registration form validation and UI logic
-├── .nojekyll                # Disables Jekyll processing on GitHub Pages
 ├── 404.html                 # Custom fallback 404 page
 ├── index.html               # Main landing page
 └── README.md                # Documentation and setup guide
@@ -36,7 +35,6 @@ college-event-site/
 - **Smooth Navigation**: Jump-to-section navigation with smooth scrolling.
 - **GitHub Pages Optimized**:
   - Relative asset paths (`css/style.css`, `js/script.js`) ensuring compatibility with project subpaths (`/<repo>/`).
-  - `.nojekyll` file included to bypass Jekyll processing.
   - Automated deployment with GitHub Actions (`static.yml`).
   - Custom `404.html` error page.
 
@@ -67,3 +65,4 @@ No build tools or package managers required. Simply open `index.html` in your br
 python -m http.server 8000
 ```
 Then visit `http://localhost:8000`.
+
